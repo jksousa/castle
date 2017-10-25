@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Castle 1.0  
+    Castle v1.0  
 @endsection
 
 @section('content')
