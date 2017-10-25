@@ -11,7 +11,7 @@
                     @endforeach
                 </div>
             @endif
-            <form action="{{route('user.signin')}}" method="post">
+            <form action="{{route('login')}}" method="post">
 
                 <div class="form-group">
 
