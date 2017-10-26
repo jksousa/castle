@@ -20,6 +20,11 @@ Route::get('/', function() {
     return view('home');
 
 });
+Route::get('/cube', function() {
+    return view('cube');
+
+});
+
 
 Route::group(['prefix' => 'user'], function () {
 

@@ -13,7 +13,7 @@ body .wrap {
 
 
 }
-@keyframes flip2 {
+@keyframes flip2old {
     0% {
         transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
     }
@@ -45,6 +45,38 @@ body .wrap {
         transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
     }
 }
+@keyframes flip2r {
+    0% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    32.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    42% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    44% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    82.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-00deg);
+    }
+    90% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    92% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    94% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+}
 body .wrap .row {
     width: 100%;
     height: 200px;
@@ -52,30 +84,7 @@ body .wrap .row {
     float: left;
     transform-style: preserve-3d;
 }
-body .wrap .row:nth-of-type(1) .cube {
-    animation-delay: -0.25s;
-    animation-delay: -0.125s;
-    animation-delay: -0.08333s;
-    animation-delay: -0.0625s;
-}
-body .wrap .row:nth-of-type(2) .cube {
-    animation-delay: -0.5s;
-    animation-delay: -0.25s;
-    animation-delay: -0.16667s;
-    animation-delay: -0.125s;
-}
-body .wrap .row:nth-of-type(3) .cube {
-    animation-delay: -0.75s;
-    animation-delay: -0.375s;
-    animation-delay: -0.25s;
-    animation-delay: -0.1875s;
-}
-body .wrap .row:nth-of-type(4) .cube {
-    animation-delay: -1s;
-    animation-delay: -0.5s;
-    animation-delay: -0.33333s;
-    animation-delay: -0.25s;
-}
+
 body .wrap .cube {
     width: 200px;
     height: 200px;
@@ -96,6 +105,10 @@ body .wrap .cube {
     65% {
         transform: rotateX(180deg) rotateY(180deg);
     }
+    100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
 
 }
 body .wrap .cube .face {

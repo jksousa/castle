@@ -37,7 +37,6 @@
 
 <div class="container perfect-centering ">
 
-    {{--<img class="rounded img-fluid" src="images/jksousa.png" alt="" >--}}
 
     <div class="wrap">
         <div class="row">
@@ -58,6 +57,7 @@
 
 
     </div>
+    <script src="{{URL::to("js/cube-interactive.js")}}"></script>
 
 
     <script src="https://use.fontawesome.com/704bb61c39.js"></script>
