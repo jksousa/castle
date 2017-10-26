@@ -45,7 +45,7 @@
                 <div class="face"></div>
                 <div class="face">
                     <div class="perfect-centering">
-                       <button class="btn btn-secondary btn-sm">jeff@jksousa.com</button>
+                       <button class="btn btn-danger btn-sm">jeff&#64;jksousa.com</button>
                     </div>
                 </div>
                 <div class="face"></div>
