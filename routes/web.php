@@ -11,10 +11,15 @@
 |
 */
 
-Route::get('/', [
+Route::get('/testcases', [
     'uses'=>'TestCaseController@getTestCases',
     'as'=>'testcase.index'
 ]);
+
+Route::get('/', function() {
+    return view('home');
+
+});
 
 Route::group(['prefix' => 'user'], function () {
 
