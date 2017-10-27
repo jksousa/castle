@@ -394,7 +394,7 @@ function Viewport(data) {
             }
 
         }
-        if (this.down && (this.distanceX>0 || this.distanceY>0)) {
+        if (this.down && (this.distanceX > 0 || this.distanceY > 0)) {
             this.element.style[userPrefix.js + 'Transform'] = 'rotateX(' + this.positionY + 'deg) rotateY(' + this.positionX + 'deg)';
         }
         if (this.positionY != this.previousPositionY || this.positionX != this.previousPositionX) {
@@ -445,6 +445,9 @@ function Viewport(data) {
         // while(i > 0 && --i) {
         //     this.sides[i].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + deg + ')';
         // }
+        // keep email right side up
+        this.sides[1].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + deg + ')';
+
 
     }
     Cube.prototype.sideChange = function () {

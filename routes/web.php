@@ -24,6 +24,10 @@ Route::get('/cube', function() {
     return view('cube');
 
 });
+Route::get('/sphere', function() {
+    return view('sphere');
+
+});
 
 
 Route::group(['prefix' => 'user'], function () {
