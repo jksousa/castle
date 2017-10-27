@@ -27,7 +27,6 @@
         }
 
 
-
     </style>
 </head>
 <body>
@@ -38,16 +37,59 @@
     <div class="wrap">
         <div class="row">
             <div class="cube">
-                <div class="face"></div>
                 <div class="face">
-                    <div class="perfect-centering">
-                      <strong>jeff&#64;jksousa.com</strong>
+                    {{--image face--}}
+                    <div class="cube-image"></div>
+                </div>
+                <div class="face">
+
+                    <div class="cube-image">
+                        <div class="perfect-centering"><strong>jeff&#64;jksousa.com</strong></div>
                     </div>
                 </div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
+                <div class="face">
+                    <div class="cube-image">
+                        <div class="perfect-centering">
+                            <a href="https://www.instagram.com/jeffsousayoga/">
+                                <img src="/images/instagram.png" width=100 height=100 alt="Instagram">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="face">
+                    <div class="cube-image">
+                        <div class="perfect-centering">
+                            <a href="https://www.linkedin.com/in/jeff-sousa-83b06425">
+                                <img src="/images/linkedin.png" width=100 height=100 alt="LinkedIn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="face">
+                    <div class="cube-image">
+
+                        <div class="perfect-centering">
+                            <a href="https://www.facebook.com/jksousa">
+                                <img src="/images/facebook.png" width=100 height=100 alt="Facebook">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="face">
+                    <div class="cube-image">
+
+                        <div class="perfect-centering">
+                            <a href="https://www.jeffsousayoga.com/">
+                                <img src="/images/yoga.png" width=100 height=100 alt="Yoga">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
 
         </div>

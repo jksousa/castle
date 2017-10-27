@@ -85,7 +85,7 @@ body {
     -o-transition: color 600ms;
     transition: color 600ms; }
 .cube > div > div.cube-image.active {
-    color: red;
+    opacity: 0.5;
 }
 
 .cube > div:hover {
