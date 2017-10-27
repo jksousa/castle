@@ -26,9 +26,6 @@
             transform: translate(-50%, -50%);
         }
 
-        .rounded {
-            border-radius: 100rem;
-        }
 
 
     </style>
@@ -44,7 +41,7 @@
                 <div class="face"></div>
                 <div class="face">
                     <div class="perfect-centering">
-                       <button class="btn btn-danger btn-sm">jeff&#64;jksousa.com</button>
+                      <strong>jeff&#64;jksousa.com</strong>
                     </div>
                 </div>
                 <div class="face"></div>

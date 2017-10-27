@@ -9,11 +9,75 @@ body .wrap {
     transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
     perspective: 10000px;
     transition: 0.5s ease-in-out;
+    animation: flip2 6s linear ;
 
 
 
 }
-
+@keyframes flip2old {
+    0% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
+    }
+    32.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-200deg);
+    }
+    42% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-210deg);
+    }
+    44% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-200deg);
+    }
+    82.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-200deg);
+    }
+    90% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
+    }
+    92% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-10deg);
+    }
+    94% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-22deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-20deg);
+    }
+}
+@keyframes flip2r {
+    0% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    32.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    42% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    44% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    82.5% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-00deg);
+    }
+    90% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    92% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    94% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotateX(20deg) rotateY(-0deg);
+    }
+}
 body .wrap .row {
     width: 100%;
     height: 200px;
