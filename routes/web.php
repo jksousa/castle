@@ -11,23 +11,23 @@
 |
 */
 
-Route::get('/testcases', [
-    'uses'=>'TestCaseController@getTestCases',
-    'as'=>'testcase.index'
-]);
+//Route::get('/home', [
+//    'uses'=>'TestCaseController@getTestCases',
+//    'as'=>'testcase.index'
+//]);
 
 Route::get('/', function() {
-    return view('home');
-
-});
-Route::get('/cube', function() {
     return view('cube');
 
-});
-Route::get('/sphere', function() {
-    return view('sphere');
+})->name('cube');
+
+
+Route::group(['middleware'=>'auth'], function () {
+
+    Route::get('/home', 'TestCaseController@getTestCases')->name('home');
 
 });
+
 
 
 Route::group(['prefix' => 'user'], function () {
@@ -84,3 +84,25 @@ Route::group(['prefix' => 'user'], function () {
 //        ]);
     });
 });
+
+
+
+
+// Fun Variant pages
+Route::get('/jks', function() {
+    return view('jks');
+
+});
+Route::get('/sphere', function() {
+    return view('sphere');
+
+});
+Route::get('/nick', function() {
+    return view('nick');
+
+});
+Route::get('/jeff', function() {
+    return view('jeff');
+
+});
+// Fun Variant pages

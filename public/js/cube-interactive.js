@@ -1,3 +1,4 @@
+
 var events = new Events();
 events.add = function (obj) {
     obj.events = {};
@@ -574,7 +575,6 @@ Viewport.prototype.animate = function () {
         } else if (this.positionX < 0) {
             this.positionX += 360;
         }
-
 
     }
     if (this.down) {

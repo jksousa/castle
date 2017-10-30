@@ -39,11 +39,13 @@
             <div class="cube">
                 <div class="face">
                     {{--image face--}}
-                    <div class="cube-image"></div>
+                    <div class="cube-image">
+                        <img src="/images/jksousa.png" width=200 height=200 alt="">
+                    </div>
                 </div>
                 <div class="face">
 
-                    <div class="cube-image">
+                    <div class="cube-image" style="background-color: #e7071a; text-shadow: 2px 2px #000000; color: #eeeeee;">
                         <div class="perfect-centering"><strong>jeff&#64;jksousa.com</strong></div>
                     </div>
                 </div>

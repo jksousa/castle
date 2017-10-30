@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Castle v1.0  
+    SandCastle
 @endsection
 
 @section('content')

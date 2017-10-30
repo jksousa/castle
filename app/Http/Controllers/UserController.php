@@ -41,14 +41,13 @@ class UserController extends Controller
             'email' => 'email|required',
             'password' => 'required|min:4'
         ]);
-
         if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
-            return redirect()->route('user.profile');
+            return redirect()->route('home');
 
         }
 
 
-        return redirect()->back();
+        return redirect()->back()->withErrors(["login" => "invalid email or password"]);
     }
 
     public function getProfile()
@@ -60,7 +59,7 @@ class UserController extends Controller
     public function getLogout()
     {
         Auth::logout();
-        return redirect()->back();
+        return redirect()->route('cube');
     }
 
 
