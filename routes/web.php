@@ -85,6 +85,10 @@ Route::group(['prefix' => 'user'], function () {
     });
 });
 
+Route::get('/marketing', function() {
+    return view('marketing.index');
+
+})->name('marketing.index');
 
 
 
@@ -105,4 +109,5 @@ Route::get('/jeff', function() {
     return view('jeff');
 
 });
+
 // Fun Variant pages

@@ -15,7 +15,7 @@
     @yield('styles')
     <style>
         body {
-            background: #555555;
+            background: #ccc;
         }
 
         .perfect-centering {
