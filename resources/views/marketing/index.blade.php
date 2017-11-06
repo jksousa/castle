@@ -93,7 +93,7 @@
                         <h1 class="title"><img src="/images/freud/freud-logo.png" alt=""></h1>
                         <h4>Whether you are a fine woodworker or a high production cabinet shop, one thing is for
                             certain… you depend on the best, most precise cutting tools that deliver superior
-                            quality finish with long cutting life. </h4>
+                            quality finish with long cutting life! </h4>
                         <br/>
                         <a target="_blank"
                            href="https://player.vimeo.com/video/86126100?portrait=0&color=ff0000&autoplay=1"
